@@ -1,0 +1,119 @@
+/***********************************
+------Header--------Start-----------
+***********************************/
+
+.nav-container {
+  background-color: var(--color-light-pink);
+  color: var(--color-white);
+  height: 5.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.logo {
+  width: 4rem;
+  border-radius: 50vh;
+}
+.nav-container > img {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+.list-container-Header {
+  list-style: none;
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.list-style-header {
+  padding: 0.4rem;
+  margin: 1.5rem;
+}
+
+.Btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--Btn-text);
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--background);
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+.Btn-one-header {
+  width: 6rem;
+}
+
+.Btn:hover {
+  cursor: pointer;
+  background-color: var(--Btn-Hover-Bg);
+  color: var(--color-white);
+  transition: all 0.4s ease;
+}
+.Btn:hover:active {
+  background-color: var(--Btn-Hover-Bg);
+  color: #ebe7ef;
+  transition: all 0.1s ease;
+}
+
+.Btn > a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fa-lightbulb {
+  color: #240832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+}
+/***********************************
+  ------Header--------End-------------
+  ***********************************/
+
+/***********************************
+------DropDownMenu--------Start-----
+***********************************/
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 2rem;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #1b082f;
+  color: #a18aba;
+  border-radius: 0.2rem;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.fa-bars {
+  color: var(--darkPurple);
+}
+
+/***********************************
+  ------DropDownMenu--------End-------
+  ***********************************/

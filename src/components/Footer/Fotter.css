@@ -1,0 +1,32 @@
+/***********************************
+------Footer--------Style-------
+***********************************/
+
+.Fotter {
+  width: 93rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  background-color: var(--color-light-pink);
+  color: var(--color-white);
+  height: 3rem;
+  font-size: 0.75rem;
+  list-style: none;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+  border-radius: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.Fotter > ul {
+  list-style: none;
+  font-size: 12px;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
+
+.Fotter-Copyright {
+  color: #240832;
+}
+/***********************************
+  ------Footer--------Style-------
+  ***********************************/
