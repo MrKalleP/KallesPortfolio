@@ -33,5 +33,4 @@ return p1 * p2;}`,
   },
 };
 
-
 /*I have an object named Examples in JavaScript that containes examples for html, css, javascript and react. And each category has a title, description and a code snippet associated with it*/
